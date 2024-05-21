@@ -1,0 +1,14 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-child',
+  templateUrl: './child.component.html',
+  styleUrls: ['./child.component.css']
+})
+export class ChildComponent {
+  username: string;
+
+  updateUserName() {
+    console.log(`Username updated to: ${this.username}`);
+  }
+}
