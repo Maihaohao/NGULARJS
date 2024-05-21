@@ -12,6 +12,7 @@ import { ChildComponent } from './child/child.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContentComponent } from './admin/content/content.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { FooterComponent } from './footer/footer.component';
     ChildComponent,
     HomeComponent,
     FooterComponent,
+    ContentComponent,
   
    
   ],
